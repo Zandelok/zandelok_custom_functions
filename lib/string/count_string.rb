@@ -1,0 +1,5 @@
+class String
+  def count_chars
+    chars.group_by(&:itself).transform_values(&:count)
+  end
+end
