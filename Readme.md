@@ -62,7 +62,7 @@ Zandelok::Functions.multiply(1, 2, 3, 4) # will return 24
 Zandelok::Functions.missing_numbers([1, 2, 3, 10]) # will return [4, 5, 6, 7, 8, 9]
 ```
 
-### `missing_numbers` generate hashtag from array or string
+### `missing_numbers` generate hashtag from array or string (hashtag max length 140 symbols)
 ```ruby
 Zandelok::Functions.generate_hashtag([1, 2, 3, 10]) # will return '#12310'
 

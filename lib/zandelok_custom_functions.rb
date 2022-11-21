@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'array/count_array'
 require_relative 'array/increase_array'
 require_relative 'array/select_array'

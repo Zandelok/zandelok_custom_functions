@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class String
   def camelcase
     str = split(/[^a-zA-Z]/)

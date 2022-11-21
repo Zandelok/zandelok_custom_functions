@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class Array
   def count_elements
-    uniq.map { |el| [el, count(el)] }.to_h
+    uniq.to_h { |el| [el, count(el)] }
   end
 end
