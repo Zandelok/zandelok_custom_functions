@@ -10,5 +10,5 @@ Gem::Specification.new do |s|
   s.email = 'gleb.kirill98@gmail.com'
   s.homepage = 'https://github.com/Zandelok/zandelok_custom_functions'
   s.version = '0.0.1'
-  s.metadata['rubygems_mfa_required'] = 'true'
+  s.metadata['rubygems_mfa_required'] = 'false'
 end

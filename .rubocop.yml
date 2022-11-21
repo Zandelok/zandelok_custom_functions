@@ -11,3 +11,6 @@ RSpec/NamedSubject:
 
 RSpec/NestedGroups:
   Enabled: false
+
+Gemspec/RequireMFA:
+  Enabled: false
