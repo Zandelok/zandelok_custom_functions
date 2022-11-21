@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Array
   def increase_with_index
     map&.with_index { |el, i| el + i }
